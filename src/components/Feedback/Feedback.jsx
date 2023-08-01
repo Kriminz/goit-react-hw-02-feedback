@@ -45,7 +45,6 @@ export class Feedback extends Component{
       return {total: prevState.good + prevState.neutral + prevState.bad};
     });
     this.countPositiveFeedbackPercentage();
-    console.log(this.state.total);
   };
 
   render(){
